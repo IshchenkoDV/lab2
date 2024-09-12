@@ -1,0 +1,37 @@
+﻿<Window x:Class="lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab2"
+        mc:Ignorable="d"
+        Title="Диспетчеры компановки" Height="450" Width="600">
+    <Grid>
+        <Canvas>
+            <Label Content="Последние документы" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Label Canvas.Top="26" Content="1.txt" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="35" />
+            <Button Canvas.Left="194" Canvas.Top="3" Content="Сохранить" />
+            <Button Canvas.Left="139" Canvas.Top="3" Content="Открыть" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Button Canvas.Left="261" Canvas.Top="3" Content="Закрыть" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <Button Canvas.Left="315" Canvas.Top="3" Content="Обрабоать" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Button Canvas.Left="384" Canvas.Top="3" Content="О программе" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Label Canvas.Top="49" Content="2.txt" Height="25" Width="35" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Label Canvas.Top="74" Content="3.txt" Height="25" Width="35" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Label Canvas.Top="99" Content="4.txt" Height="25" Width="35" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Label Canvas.Top="124" Content="5.txt" Height="25" Width="35" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Label Canvas.Top="149" Content="6.txt" Height="25" Width="35" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Label Canvas.Left="139" Canvas.Top="26" Content="1.txt" Height="25" Width="35" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <Label Canvas.Left="174" Canvas.Top="26" Content="2.txt" Height="25" Width="35" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Label Canvas.Left="207" Canvas.Top="26" Content="3.txt" Height="25" Width="35" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            
+        </Canvas>
+        <WrapPanel Margin="129,53,-64,-298" Orientation="Horizontal">
+            <Button Content="A" Height="62" Width="58" Background="Yellow" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+            <Button Content="B" Height="62" Width="58" Background="Red" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+            <Button Content="C" Height="62" Width="58" Background="Green" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" />
+            <Button Content="D" Height="62" Width="58" Background="Blue" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" />
+            <Button Content="E" Height="62" Width="58" Background="Gray" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" />
+            <Button Content="F" Height="62" Width="58" Background="Beige" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" />
+        </WrapPanel>
+    </Grid>
+</Window>
